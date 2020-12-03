@@ -4,3 +4,6 @@ git status --查看状态
 git commit -m "提交说明" --提交说明
 git log --查看提交日志
 git diff filename --查看文件修改差异
+git reflog --查看每次提交日子记录
+git reset --hard HEAD^ --版本回退到最近提交的一个版本
+git reset --hard commitid --版本回退到指定id的版本
