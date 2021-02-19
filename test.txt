@@ -7,3 +7,4 @@ git diff filename --查看文件修改差异
 git reflog --查看每次提交日子记录
 git reset --hard HEAD^ --版本回退到最近提交的一个版本
 git reset --hard commitid --版本回退到指定id的版本
+git restore file  --撤销修改
