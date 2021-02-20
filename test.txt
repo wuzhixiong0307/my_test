@@ -14,3 +14,6 @@ git remote add origin 远程仓库地址 --关联远程仓库
 git push -u origin master --第一次推送master分支内容
 git push origin master --第一次推送关联后，后面推送可简化命令不用-u
 git clone 远程仓库地址 --克隆远程仓库到本地
+git branch 分支名称 --创建分支
+git switch 分支名称 --切换到指定分支上
+git branch --查看当前分支
