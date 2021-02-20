@@ -16,4 +16,7 @@ git push origin master --第一次推送关联后，后面推送可简化命令�
 git clone 远程仓库地址 --克隆远程仓库到本地
 git branch 分支名称 --创建分支
 git switch 分支名称 --切换到指定分支上
-git branch --查看当前分支
+git switch -c 分支名称 --创建并切换到新分支上
+git branch --查看分支
+git merge 分支名称 --快速合并指定分支到当前分支上
+git branch -d 分支名称 --删除指定分支
