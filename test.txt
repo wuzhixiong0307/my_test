@@ -21,3 +21,4 @@ git branch --查看分支
 git merge 分支名称 --快速合并指定分支到当前分支上
 git branch -d 分支名称 --删除指定分支
 git log --graph --查看分支合并图
+git merge --no-ff -m "提交描述" 分支名称 --合并分支加上--no-ff参数分支合并后，可查看分支合并记录
