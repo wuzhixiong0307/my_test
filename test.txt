@@ -20,3 +20,4 @@ git switch -c 分支名称 --创建并切换到新分支上
 git branch --查看分支
 git merge 分支名称 --快速合并指定分支到当前分支上
 git branch -d 分支名称 --删除指定分支
+git log --graph --查看分支合并图
