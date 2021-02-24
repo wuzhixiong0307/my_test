@@ -1,4 +1,6 @@
 git init --创建工作区改
+git config --global user.name "用户名"
+git config --global user.email 电子邮箱地址
 git add file --添加文件
 git status --查看状态
 git commit -m "提交说明" --提交说明
